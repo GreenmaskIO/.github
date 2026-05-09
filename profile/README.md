@@ -1,4 +1,4 @@
-![Greenmask Logo](./greenmask-logo.png)
+[![Greenmask Logo](./greenmask-logo.png)](https://www.greenmask.io)
 
 # Greenmask
 
