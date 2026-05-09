@@ -127,8 +127,6 @@ This roadmap is being developed in collaboration with [Solanica](https://solanic
 and [OpenEverest](https://openeverest.io/) as part of a broader effort to build open-source, enterprise-grade
 infrastructure for modern software delivery workflows.
 
-Read more in the announcement blog post:
-
 Read more in
 the [announcement blog post](https://www.greenmask.io/blog/greenmask-openeverest-automating-safe-production-data).
 
