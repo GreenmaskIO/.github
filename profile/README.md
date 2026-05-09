@@ -1,4 +1,4 @@
-![Greenmask Logo](greenmask-logo.png)
+![Greenmask Logo](./profile/greenmask-logo.png)
 
 # Greenmask
 
@@ -121,7 +121,7 @@ environments and safely iterate on realistic datasets.
 
 Conceptual architecture:
 
-![Future Platform Vision](./vision.png)
+![Future Platform Vision](./profile/vision.png)
 
 This roadmap is being developed in collaboration with [Solanica](https://solanica.io/)
 and [OpenEverest](https://openeverest.io/) as part of a broader effort to build open-source, enterprise-grade
