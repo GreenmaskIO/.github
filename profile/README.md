@@ -97,9 +97,9 @@ environments.
 
 - GitHub Discussions
 - GitHub Issues
-- security@greenmask.io
+- [security@greenmask.io](mailto:security@greenmask.io)
 
-For enterprise support and partnership inquiries, please contact us through the website.
+For enterprise support and partnership inquiries, please contact us through the website or reach out to [support@greenmask.io](mailto:support@greenmask.io).
 
 ---
 
