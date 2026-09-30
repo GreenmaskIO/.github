@@ -10,54 +10,38 @@ engineering environments without exposing sensitive information.
 
 ---
 
-## Core Principles
+## Repositories
 
-- **Stateless architecture**
-- **In-flight anonymization**
-- **No persistent storage of raw production datasets**
-- **Production-like development workflows**
-- **Subset-oriented data pipelines**
-- **Extensible transformation system**
-- **Infrastructure and automation friendly**
+| Repository                                            | What it is                                                                                                                                                  |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [greenmask](https://github.com/GreenmaskIO/greenmask) | The Greenmask engine and CLI: dump, anonymize, subset, and restore databases. **Start here.**                                                               |
+| [storages](https://github.com/GreenmaskIO/storages)   | Standalone Go library extracted from Greenmask: one interface for object storage with local filesystem, S3 (and compatibles), Azure Blob, SFTP, and in-memory backends. |
+| [examples](https://github.com/GreenmaskIO/examples)   | Ready-to-run examples, integrations, and deployment scenarios for Greenmask.                                                                                |
 
 ---
 
 ## What Greenmask Provides
 
-### Data Anonymization
-
-Transform sensitive production data during logical dump workflows using configurable masking and transformation
-pipelines.
-
-### Test Data Management
-
-Create secure production-like datasets for development, testing, staging, CI pipelines, and ephemeral environments.
-
-### Subsetting
-
-Extract only the required portion of production data while preserving relational consistency.
-
-### Synthetic Data Generation
-
-Generate realistic synthetic values and replacement datasets for non-production environments.
-
-### Secure Development Workflows
-
-Reduce the operational and security risks associated with long-lived raw production copies in lower-trust environments.
+- **Data anonymization** — mask and transform sensitive data during logical dumps using configurable transformation
+  pipelines.
+- **Subsetting** — extract only the required portion of production data while preserving relational consistency.
+- **Synthetic data generation** — generate realistic replacement values and datasets for non-production environments.
+- **Test data management** — provision secure, production-like datasets for development, testing, staging, CI
+  pipelines, and ephemeral environments, without keeping long-lived raw production copies around.
 
 ---
 
-## Architecture
+## How It Works
 
-Greenmask is designed around a stateless, stream-oriented architecture:
+Greenmask is built around a stateless, stream-oriented architecture:
 
 Database → Logical Dump Stream → Transformation Pipeline → Storage / Restore
 
-During anonymization workflows:
-
-- data is processed in-flight;
-- transformations are executed directly within the dump stream;
-- sensitive raw datasets do not need to be persistently stored unmasked.
+- **In-flight anonymization** — transformations run directly within the dump stream.
+- **No raw data at rest** — sensitive datasets never need to be persisted unmasked.
+- **Stateless** — nothing to host or maintain between runs, which makes it easy to automate in CI and infrastructure
+  pipelines.
+- **Extensible** — built-in transformers can be complemented with your own.
 
 This model is designed to support secure development and testing workflows in regulated and compliance-driven
 environments.
@@ -66,40 +50,25 @@ environments.
 
 ## Supported Databases
 
-### Stable
-
-- PostgreSQL
-
-### Experimental
-
-- MySQL
+| Database   | Status       |
+|------------|--------------|
+| PostgreSQL | Stable       |
+| MySQL      | Experimental |
 
 ---
 
-## Repositories
-
-| Repository                                            | Description                                      |
-|-------------------------------------------------------|--------------------------------------------------|
-| [greenmask](https://github.com/GreenmaskIO/greenmask) | Core Greenmask engine and CLI                    |
-| [examples](https://github.com/GreenmaskIO/examples)   | Examples, integrations, and deployment scenarios |
-
----
-
-## Documentation
+## Documentation & Community
 
 - Website: https://www.greenmask.io
 - Documentation: https://docs.greenmask.io
-- Security Policy: https://github.com/GreenmaskIO/greenmask/blob/main/SECURITY.md
+- Questions and ideas: [GitHub Discussions](https://github.com/GreenmaskIO/greenmask/discussions)
+- Bug reports and feature requests: [GitHub Issues](https://github.com/GreenmaskIO/greenmask/issues)
+- Chat: [Discord](https://discord.com/invite/rKBKvDECfd)
+- Security: see the [Security Policy](https://github.com/GreenmaskIO/greenmask/blob/main/SECURITY.md) or write
+  to [security@greenmask.io](mailto:security@greenmask.io)
 
----
-
-## Community & Support
-
-- GitHub Discussions
-- GitHub Issues
-- [security@greenmask.io](mailto:security@greenmask.io)
-
-For enterprise support and partnership inquiries, please contact us through the website or reach out to [support@greenmask.io](mailto:support@greenmask.io).
+For enterprise support and partnership inquiries, contact us through the website or
+at [support@greenmask.io](mailto:support@greenmask.io).
 
 ---
 
