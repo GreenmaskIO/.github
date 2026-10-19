@@ -18,8 +18,8 @@ manual database preparation or waiting on DBA queues.
     <td align="center" width="50%">
       <a href="https://www.greenmask.io/docs/greenmask/?utm_source=github&utm_medium=repo&utm_campaign=oss">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/greenmask-logo-dark.svg">
-          <img src="./assets/greenmask-logo-light.svg" alt="Greenmask" height="44">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/greenmask-logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/greenmask-logo-light.svg" alt="Greenmask" height="44">
         </picture>
       </a>
       <br><br>
@@ -31,8 +31,8 @@ manual database preparation or waiting on DBA queues.
     <td align="center" width="50%">
       <a href="https://www.greenmask.io/docs/arcave/?utm_source=github&utm_medium=repo&utm_campaign=oss">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/arcave-logo-dark.svg">
-          <img src="./assets/arcave-logo-light.svg" alt="arcave" height="44">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/arcave-logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/arcave-logo-light.svg" alt="arcave" height="44">
         </picture>
       </a>
       <br><br>
@@ -80,16 +80,16 @@ arcave rollback before-migration
   <tr>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/step-01-dark.svg">
-        <img src="./assets/step-01-light.svg" alt="Run your Compose project">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-01-dark.svg">
+        <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-01-light.svg" alt="Run your Compose project">
       </picture>
       <b>1. Run your Compose project</b><br>
       Bring your project up the way you already do. No new infrastructure, no rewrites, no allowlists.
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/step-02-dark.svg">
-        <img src="./assets/step-02-light.svg" alt="Make the data safe">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-02-dark.svg">
+        <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-02-light.svg" alt="Make the data safe">
       </picture>
       <b>2. Make the data safe</b> · Greenmask<br>
       Turn production into anonymized, production-like data — subset to the size the environment needs.
@@ -98,16 +98,16 @@ arcave rollback before-migration
   <tr>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/step-03-dark.svg">
-        <img src="./assets/step-03-light.svg" alt="Capture the environment">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-03-dark.svg">
+        <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-03-light.svg" alt="Capture the environment">
       </picture>
       <b>3. Capture the environment</b> · arcave<br>
       Save data, services and configuration as one consistent snapshot of the whole environment.
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/step-04-dark.svg">
-        <img src="./assets/step-04-light.svg" alt="Branch and roll back">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-04-dark.svg">
+        <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/step-04-light.svg" alt="Branch and roll back">
       </picture>
       <b>4. Branch and roll back</b> · arcave<br>
       Try migrations, run agents, break things. Every developer, pipeline and agent works on a disposable copy.
@@ -161,8 +161,8 @@ From safe data to ephemeral environments:
 Target architecture of an ephemeral development environment:
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/ephemeral-architecture-dark.svg">
-  <img src="./assets/ephemeral-architecture-light.svg" alt="Ephemeral development environment: a developer laptop (User, AI Agent, local Service) connecting to a remote ephemeral env (DBaaS with branching, Agentic API, Test Data Management, User Services).">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/ephemeral-architecture-dark.svg">
+  <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/ephemeral-architecture-light.svg" alt="Ephemeral development environment: a developer laptop (User, AI Agent, local Service) connecting to a remote ephemeral env (DBaaS with branching, Agentic API, Test Data Management, User Services).">
 </picture>
 
 Read the full [vision](https://www.greenmask.io/vision?utm_source=github&utm_medium=repo&utm_campaign=oss).
