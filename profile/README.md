@@ -165,8 +165,7 @@ Target architecture of an ephemeral development environment:
   <img src="./assets/ephemeral-architecture-light.svg" alt="Ephemeral development environment: a developer laptop (User, AI Agent, local Service) connecting to a remote ephemeral env (DBaaS with branching, Agentic API, Test Data Management, User Services).">
 </picture>
 
-Read the full [vision](https://www.greenmask.io/vision?utm_source=github&utm_medium=repo&utm_campaign=oss) and follow
-the [public roadmap](https://github.com/orgs/GreenmaskIO/projects/6).
+Read the full [vision](https://www.greenmask.io/vision?utm_source=github&utm_medium=repo&utm_campaign=oss).
 
 We are building this in collaboration with [Solanica](https://solanica.io/) and [OpenEverest](https://openeverest.io/)
 as part of a broader effort to deliver open-source, enterprise-grade infrastructure for modern software delivery — see
