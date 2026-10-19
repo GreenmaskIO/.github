@@ -185,7 +185,8 @@ the [announcement](https://www.greenmask.io/blog/greenmask-openeverest-automatin
 - Security: see the [Security Policy](https://github.com/GreenmaskIO/greenmask/blob/main/SECURITY.md) or write
   to [security@greenmask.io](mailto:security@greenmask.io)
 
-Greenmask, Inc. offers enterprise support, consulting, training and custom development for both products.
+Greenmask, Inc. helps engineering organizations make stateful environments reproducible at scale — enterprise support,
+consulting, training and custom development from the team behind Greenmask and arcave.
 [Talk to sales](https://www.greenmask.io/talk-to-sales?utm_source=github&utm_medium=repo&utm_campaign=oss) or write
 to [sales@greenmask.io](mailto:sales@greenmask.io) / [support@greenmask.io](mailto:support@greenmask.io).
 
