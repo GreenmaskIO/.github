@@ -16,7 +16,7 @@ manual database preparation or waiting on DBA queues.
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="https://www.greenmask.io/docs/greenmask/?utm_source=github&utm_medium=repo&utm_campaign=oss">
+      <a href="https://github.com/GreenmaskIO/greenmask">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/greenmask-logo-dark.svg">
           <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/greenmask-logo-light.svg" alt="Greenmask" height="44">
@@ -29,7 +29,7 @@ manual database preparation or waiting on DBA queues.
       <a href="https://github.com/GreenmaskIO/greenmask">Repo</a>
     </td>
     <td align="center" width="50%">
-      <a href="https://www.greenmask.io/docs/arcave/?utm_source=github&utm_medium=repo&utm_campaign=oss">
+      <a href="https://github.com/GreenmaskIO/arcave">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/arcave-logo-dark.svg">
           <img src="https://raw.githubusercontent.com/GreenmaskIO/.github/main/profile/assets/arcave-logo-light.svg" alt="arcave" height="44">
